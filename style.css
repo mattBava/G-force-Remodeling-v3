@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    width: 1em;
+    overflow-x:hidden;
+}
+.container{
+    display: grid;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    color: #000000;
+}
+.white{
+background-color:#cccccc;
+}
+.blue{
+background-color:#86878a;
+}
+
+.main{
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+   padding: 4.6vw;
+    height: 40vw;
+    
+    
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90vw;
+    height: 40vw;
+    
+}
+.box{
+    width: 28vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 90vw;
+}
+.right {
+    align-content: center;
+    padding-top: 5vw;
+    padding-left: 20vw;
+}
+#homeImg{
+    width: 40vw;
+    height: 30vw;
+    border-radius: 5%;
+}
+#backgroundImg{
+    width: 30vw;
+    height: 30vw;  
+    border-radius: 5%;
+}
+#exampleImg{
+    width: 20vw;
+    height:25vw;
+    border-radius: 5%;
+}
+.form{
+    width: 45vw;
+    height: auto;
+    background-color: #cccccc;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+#bnf{
+    padding-left: 40%;
+}
+form{
+    display: grid;
+    height: 30vw;
+    padding: 10px;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 4;}
+.div2 { grid-area: 1 / 4 / 2 / 7; }
+.div3 { grid-area: 2 / 1 / 3 / 4; }
+.div4 { grid-area: 2 / 4 / 3 / 7; }
+.div5 { grid-area: 3 / 1 / 4 / 7; }
+.div6 { grid-area: 4 / 1 / 5 / 3; }
+.div7 { grid-area: 4 / 3 / 5 / 5; }
+.div8 { grid-area: 4 / 5 / 5 / 7; }
+.div9 { grid-area: 5 / 1 / 6 / 7; }
+.baBox1{grid-area: 1;
+align-items: center;}
+.baBox2{grid-area: 1/3;}
+
+input{
+    width: 700px;
+    padding: 5px;
+    font-size: 1rem;
+}
+textarea{
+    padding: 10px;
+    font-size: 1rem;
+}
+label{
+    padding-bottom: 5px;
+}
+#half{
+    width: 350px;
+}
+
+
+#thr{
+    width: 200px;
+}
+ #title {
+    font-size: 2rem;
+ }
+
+ h1{
+    font-size: 3rem;
+ }
+
+ 
+ .getQuote{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ font-size: 14px;
+ color: #000000;
+ background-color: #cfe2f5;
+ padding: 10px 30px;
+ border: 2px solid #0066cc;
+ box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+ border-radius: 50px;
+ transition : 1000ms;
+ transform: translateY(0);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ cursor: pointer;
+ }
+ 
+ .getQuote:hover{
+ 
+ transition : 1000ms;
+ padding: 10px 50px;
+ transform : translateY(-0px);
+ background-color: #fff;
+ color: #0066cc;
+ border: solid 2px #0066cc;
+ }
